@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben NoKa – Vua Chiến Dịch</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans‑serif;
+        }
+        body {
+            background: #121212;
+            color: #ffffff;
+            min‑height: 100vh;
+            display: flex;
+            flex‑direction: column;
+            align‑items: center;
+            padding: 30px 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border‑radius: 24px;
+            padding: 30px;
+            max‑width: 480px;
+            width: 100%;
+            box‑shadow: 0 0 30px rgba(255, 215, 0, 0.18);
+        }
+        .logo‑box {
+            width: 220px;
+            height: 220px;
+            border: 3px solid #c9a227;
+            border‑radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+            display: flex;
+            align‑items: center;
+            justify‑content: center;
+        }
+        .logo‑box img {
+            width: 100%;
+            height: 100%;
+            object‑fit: cover;
+        }
+        h1 {
+            text‑align: center;
+            color: #c9a227;
+            font‑size: 28px;
+            margin‑bottom: 8px;
+        }
+        h2 {
+            text‑align: center;
+            color: #dddddd;
+            font‑size: 20px;
+            margin‑bottom: 24px;
+        }
+        .desc {
+            text‑align: center;
+            margin‑bottom: 30px;
+            line‑height: 1.6;
+        }
+        .btn {
+            display: block;
+            text‑align: center;
+            text‑decoration: none;
+            border‑radius: 14px;
+            padding: 14px;
+            margin: 10px 0;
+            font‑weight: bold;
+        }
+        .btn‑fb {
+            background: #1877f2;
+            color: white;
+        }
+        .btn‑zalo {
+            background: #0068ff;
+            color: white;
+        }
+        .btn‑discord {
+            background: #5865f2;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="logo‑box">
+            <img src="LOGO_BEN_NOKA.png" alt="Logo Ben NoKa">
+        </div>
+        <h1>Ben NoKa</h1>
+        <h2>Vua Chiến Dịch</h2>
+        <div class="desc">
+            Trang profile chính thức Ben NoKa<br>
+            Uy tín – Chất lượng ✅🔱
+        </div>
+        <a class="btn btn‑fb" href="https://www.facebook.com/share/1Fnw3Gq5sL/" target="_blank">📘 FACEBOOK</a>
+        <a class="btn btn‑zalo" href="https://zalo.me/0939483060" target="_blank">💬 ZALO</a>
+        <a class="btn btn‑discord" href="https://discord.gg/link‑ban‑dau" target="_blank">🎯 DISCORD</a>
+    </div>
+</body>
+</html>
