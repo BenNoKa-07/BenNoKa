@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF‑8">
+<meta name="viewport" content="width‑device‑width, initial‑scale=1.0">
+<title>BenNoKa</title>
+<style>
+*{margin:0;padding:0;box‑sizing:border‑box;font‑family:Arial,sans‑serif;}
+body{background:#121212;color:#fff;min‑height:100vh;display:flex;flex‑direction:column;align‑items:center;padding:40px 20px;}
+.container{max‑width:420px;width:100%;text‑align:center;}
+.circle‑logo{width:140px;height:140px;border:3px solid #ff2222;border‑radius:50%;background:#1a0808;display:flex;align‑items:center;justify‑content:center;margin:0 auto 20px;box‑shadow:0 0 25px #ff2222;}
+.circle‑logo span{font‑size:52px;font‑weight:bold;color:#fff;}
+h1{color:#ff2222;font‑size:36px;margin‑bottom:10px;}
+.sub‑title{color:#ff4444;font‑size:18px;margin‑bottom:20px;}
+.desc{margin‑bottom:30px;line‑height:1.8;color:#ddd;}
+.info‑row{display:flex;gap:8px;margin‑bottom:30px;}
+.info‑box{flex:1;background:#1c1c28;padding:12px;border‑radius:12px;color:#fff;}
+.btn{display:block;text‑decoration:none;padding:16px;border:1px solid #ff2222;border‑radius:14px;color:#fff;margin:12px 0;font‑weight:bold;font‑size:16px;}
+.btn‑zalo{border‑color:#0068ff;color:#0068ff;}
+footer{margin‑top:40px;color:#888;font‑size:14px;}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="circle‑logo"><span>BN</span></div>
+<h1>BenNoKa</h1>
+<div class="sub‑title">⚡ GAMING PRO | ROBLOX CREATOR</div>
+<div class="desc">
+🎮 Xin chào, mình là BenNoKa<br>
+🔥 ROBLOX BenVipv83<br>
+👑 kết Bạn Vào Tham gia discord để được chơi cùng
+</div>
+<div class="info‑row">
+<div class="info‑box">ROBLOX<br>Game</div>
+<div class="info‑box">GAMER<br>Role</div>
+<div class="info‑box">2026<br>Year</div>
+</div>
+<!-- NÚT ZALO MỚI THÊM -->
+<a class="btn btn‑zalo" href="https://zalo.me/0939483060" target="_blank">💬 ZALO</a>
+<a class="btn" href="www.tiktok.com/@cuben674" target="_blank">🎵 TikTok</a>
+<a class="btn" href="https://discord.gg/7mY4WyVdm" target="_blank">🔷 Discord</a>
+<footer>© 2026 BenNoKa | All Rights Reserved</footer>
+</div>
+</body>
+</html>
+<a class="btn" href="https://ipas.cc/06y24d" target="_blank">📌delta </a>
+<!-- PHẦN NHẠC NỀN -->
+<audio id="nhacNen" loop>
+  <source src="https://on.soundcloud.com/QXgwDqzVL8W5f74Iup" type="audio/mpeg">
+
+<button onclick="document.getElementById('nhacNen').play()" style="display:block;margin:12px auto;padding:12px;border-radius:14px;border:1px solid #ff2222;color:#fff;background:#1c1c28;font-weight:bold;">🔊 BẬT NHẠC</button>
